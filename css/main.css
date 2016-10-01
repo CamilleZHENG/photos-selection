@@ -1,0 +1,30 @@
+em
+{
+    color: red;
+    font-weight: bold;
+}
+ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 0;
+	width: 800px;
+	margin:auto;
+}
+ul li{
+	flex-basis: 7em;
+	text-align: center;
+	margin:1em;
+	padding:0.5em;
+	border-radius: 8px;
+    transition: background-color 0.5s;
+}
+.survol{
+	background-color: silver;
+}
+.selected{
+	background-color:rgb(38, 106, 46);
+}
+
